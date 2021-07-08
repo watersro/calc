@@ -17,6 +17,7 @@ body {
 }
 .title {
 	grid-area: title;
+	color: #b5b6e4;
 }
 .calculator {
 	grid-area: calculator;

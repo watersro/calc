@@ -31,9 +31,6 @@ function divide(num1, num2) {
 
 // evaulator function
 function operator(num1, method, num2) {
-    console.log(`display before operation: ${twoOrDisplay}`);
-    console.log(`stored before operation: ${oneOrStored}`);
-    console.log(`result before operation: ${result}`);
     let a = parseFloat(num1);
     let b = parseFloat(num2);
     if (method === "add") {
@@ -44,7 +41,6 @@ function operator(num1, method, num2) {
         result = multiply(a, b);
     } else if (method === "divide") {
         if (a === 0 && b === 0) {
-            console.log(a, b)
             result = 0;
             oneOrStored = 0;
             twoOrDisplay = 0;
@@ -53,9 +49,6 @@ function operator(num1, method, num2) {
             result = divide(a, b);
         }
     };
-    console.log(`display after operation: ${twoOrDisplay}`);
-    console.log(`sttored after operation: ${oneOrStored}`)
-    console.log(`result after: ${result}`);
     return result;
 };
 
@@ -197,9 +190,6 @@ divideButton.addEventListener("click", () => {
         isPoint = false;
     } else if (typeof(currentOperator) === "string") {
         clearScreen();
-        operator(oneOrStored, currentOperator, twoOrDisplay);
-        appendNum(result);
-        oneOrStored = result;
         operator(oneOrStored, currentOperator, twoOrDisplay);
         appendNum(result);
         oneOrStored = result;

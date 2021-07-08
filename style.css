@@ -48,101 +48,119 @@ body {
 	border-radius: 4%;
 }
 .clear {
+	font-size: 120%;
 	grid-area: clear;
 	font-weight: bolder;
 	background-color: #4f43ae;
 }
 .back {
+	font-size: 120%;
 	grid-area: back;
 	font-weight: bolder;
 	background-color: #4f43ae;
 }
 .three {
+	font-size: 120%;
 	grid-area: three;
 	font-weight: bolder;
 	background-color: #b5b6e4;
 	color: #4d0a3b;
 }
 .four {
+	font-size: 120%;
 	grid-area: four;
 	font-weight: bolder;
 	background-color: #b5b6e4;
 	color: #4d0a3b;
 }
 .five {
+	font-size: 120%;
 	grid-area: five;
 	font-weight: bolder;
 	background-color: #b5b6e4;
 	color: #4d0a3b;
 }
 .six {
+	font-size: 120%;
 	grid-area: six;
 	font-weight: bolder;
 	background-color: #b5b6e4;
 	color: #4d0a3b;
 }
 .seven {
+	font-size: 120%;
 	grid-area: seven;
 	font-weight: bolder;
 	background-color: #b5b6e4;
 	color: #4d0a3b;
 }
 .eight {
+	font-size: 120%;
 	grid-area: eight;
 	font-weight: bolder;
 	background-color: #b5b6e4;
 	color: #4d0a3b;
 }
 .nine {
+	font-size: 120%;
 	grid-area: nine;
 	font-weight: bolder;
 	background-color: #b5b6e4;
 	color: #4d0a3b;
 }
 .divide {
+	font-size: 120%;
 	grid-area: divide;
 	font-weight: bolder;
 	background-color: #4f43ae;
 }
 .multiply {
+	font-size: 120%;
 	grid-area: multiply;
 	font-weight: bolder;
 	background-color: #4f43ae;
 }
 .subtract {
+	font-size: 120%;
 	grid-area: subtract;
 	font-weight: bolder;
 	background-color: #4f43ae;
 }
 .one {
+	font-size: 120%;
 	grid-area: one;
 	font-weight: bolder;
 	background-color: #b5b6e4;
 	color: #4d0a3b;
 }
 .two {
+	font-size: 120%;
 	grid-area: two;
 	font-weight: bolder;
 	background-color: #b5b6e4;
 	color: #4d0a3b;
 }
 .add {
+	font-size: 120%;
 	grid-area: add;
 	font-weight: bolder;
 	background-color: #4f43ae;
 }
 .equals {
+	font-size: 120%;
 	grid-area: equals;
 	font-weight: bolder;
 	background-color: #de3860;
 }
 .zero {
+	font-size: 120%;
 	grid-area: zero;
 	font-weight: bolder;
 	background-color: #b5b6e4;
 	color: #4d0a3b;
 }
 .point {
+	font-size: 120%;
 	grid-area: point;
 	font-weight: bolder;
 	background-color: #b5b6e4;
